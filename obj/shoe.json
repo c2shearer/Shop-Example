@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Shoe1",
+        "img": "img/shoe1.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, nesciunt!",
+        "price": 79.99
+    },
+    {
+        "id": 2,
+        "title": "Shoe2",
+        "img": "img/shoe1.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, nesciunt!",
+        "price": 129.99
+    },
+    {
+        "id": 3,
+        "title": "Shoe3",
+        "img": "img/shoe1.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, nesciunt!",
+        "price": 229.99
+    }
+]
