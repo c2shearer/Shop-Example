@@ -23,7 +23,6 @@ const Shoes = [
 ]
 
 let Cart = [];
-let Count = [];
 
 //Access Modal 
 //Access ID of each Product
