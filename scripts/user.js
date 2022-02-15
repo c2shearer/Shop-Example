@@ -6,7 +6,6 @@ document.getElementById("submit").addEventListener("click", function () {
     const phone = document.getElementById("phone").value;
     const password = document.getElementById("password1").value;
     const confirmPassword = document.getElementById("password2").value;
-    console.log(userName + email + phone + passwordOne + passwordTwo);
 
     // Creating an Object within JavaScript with properties
     var user = {
@@ -18,5 +17,6 @@ document.getElementById("submit").addEventListener("click", function () {
 
     // Storing in the local storage of the Browser
     localStorage.setItem("userInfo", JSON.stringify(user));
+    window.location.href = "account.html"
 
 })
