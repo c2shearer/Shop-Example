@@ -7,11 +7,13 @@ document.addEventListener("DOMContentLoaded", function (e) {
     if (userInfo) {
         account.innerHTML = "My Account";
         account.addEventListener("click", function () {
-            window.location.href = "register.html";
+            window.location.href = "account.html";
         })
     } 
     else {
         account.innerHTML = "Register";
+        account.addEventListener("click", function() {
+            window.location.href = "register.html"
+        })
     }
-
 })
