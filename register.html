@@ -61,6 +61,7 @@
       <div class="mb-3">
         <label for="phone" class="form-label">Phone Number</label>
         <input type="text" class="form-control" id="phone">
+        <span class="text-danger form-text" id="errorCheck">You must enter your phone number</span>
       </div>
       <div class="row">
         <div class="col-6">
@@ -73,11 +74,12 @@
           <div class="mb-3">
             <label for="exampleInputPassword2" class="form-label">Confirm Password</label>
             <input type="password" class="form-control" id="password2">
+            <span class="text-danger form-text" id="errorMatch">Passwords are not identical</strong></span>
           </div>
         </div>
       </div>
       <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <input type="checkbox" class="form-check-input" id="checkBox">
         <label class="form-check-label" for="exampleCheck1">Check me out</label>
       </div>
       <button type="button" id="submit" class="btn btn-primary">Submit</button>
